@@ -1,0 +1,26 @@
+{
+  "school_name": "Okul / Kurum Adı",
+  "language": "tr",
+  "enabled": true,
+  "catchup_seconds": 90,
+  "ui_port": 8765,
+  "volumes": {
+    "bell": 100,
+    "ceremony": 100,
+    "emergency": 100
+  },
+  "melodies": {
+    "student": "Ogrenci_Zili.wav",
+    "teacher": "Ogretmen_Zili.wav",
+    "exit": "Cikis_Zili.wav",
+    "anthem_only": "istiklalmarsi.wav",
+    "anthem_1min": "1dksaygiveistiklalmarsi.wav",
+    "anthem_2min": "2dksaygiveistiklalmarsi.wav",
+    "em_yellow": "1_Sari_Ikaz_Hava_Tehdidi.wav",
+    "em_red": "2_Kirmizi_Ikaz_Dogrudan_Tehlike.wav",
+    "em_black": "3_Siyah_Ikaz_KBRN_Kimyasal_Tehlike.wav",
+    "em_white": "4_Beyaz_Ikaz_Tehlike_Gecti.wav",
+    "em_quake": "5_Deprem_Cok_Kapan_Tutun.wav",
+    "em_fire": "6_Yangin_Tahliye_Sireni.wav"
+  }
+}

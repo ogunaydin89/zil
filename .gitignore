@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Runtime state: changes every bell, rebuilt automatically
+data/ring-log.jsonl
+data/fired-today.json
+
+# Bundled dependencies: reinstall with requirements.txt
+lib/
+
+# Sound files: not part of the code, add your own (see README)
+audio/

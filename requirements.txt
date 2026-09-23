@@ -1,0 +1,7 @@
+# Zil bağımlılıkları: lib/ klasörüne kurulur
+#   python -m pip install --target lib -r requirements.txt
+bottle==0.13.4
+pillow==12.3.0
+pygame==2.6.1
+pystray==0.19.5
+pywebview==6.2.1

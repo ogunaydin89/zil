@@ -1,0 +1,954 @@
+{
+  "weekly": {
+    "Monday": [
+      {
+        "lesson": 1,
+        "type": "student",
+        "time": "08:25",
+        "enabled": true
+      },
+      {
+        "lesson": 1,
+        "type": "teacher",
+        "time": "08:30",
+        "enabled": true
+      },
+      {
+        "lesson": 1,
+        "type": "exit",
+        "time": "09:10",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "student",
+        "time": "09:23",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "teacher",
+        "time": "09:25",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "exit",
+        "time": "10:05",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "student",
+        "time": "10:23",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "teacher",
+        "time": "10:25",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "exit",
+        "time": "11:05",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "student",
+        "time": "11:18",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "teacher",
+        "time": "11:20",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "exit",
+        "time": "12:00",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "student",
+        "time": "12:45",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "teacher",
+        "time": "12:50",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "exit",
+        "time": "13:30",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "student",
+        "time": "13:43",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "teacher",
+        "time": "13:45",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "exit",
+        "time": "14:25",
+        "enabled": true
+      },
+      {
+        "lesson": 7,
+        "type": "student",
+        "time": "14:38",
+        "enabled": true
+      },
+      {
+        "lesson": 7,
+        "type": "teacher",
+        "time": "14:40",
+        "enabled": true
+      },
+      {
+        "lesson": 7,
+        "type": "exit",
+        "time": "15:20",
+        "enabled": true
+      },
+      {
+        "lesson": 8,
+        "type": "student",
+        "time": "15:28",
+        "enabled": true
+      },
+      {
+        "lesson": 8,
+        "type": "teacher",
+        "time": "15:30",
+        "enabled": true
+      },
+      {
+        "lesson": 8,
+        "type": "exit",
+        "time": "16:10",
+        "enabled": true
+      },
+      {
+        "lesson": 9,
+        "type": "student",
+        "time": "16:18",
+        "enabled": true
+      },
+      {
+        "lesson": 9,
+        "type": "teacher",
+        "time": "16:20",
+        "enabled": true
+      },
+      {
+        "lesson": 9,
+        "type": "exit",
+        "time": "17:00",
+        "enabled": true
+      }
+    ],
+    "Tuesday": [
+      {
+        "lesson": 1,
+        "type": "student",
+        "time": "08:25",
+        "enabled": true
+      },
+      {
+        "lesson": 1,
+        "type": "teacher",
+        "time": "08:30",
+        "enabled": true
+      },
+      {
+        "lesson": 1,
+        "type": "exit",
+        "time": "09:10",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "student",
+        "time": "09:23",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "teacher",
+        "time": "09:25",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "exit",
+        "time": "10:05",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "student",
+        "time": "10:23",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "teacher",
+        "time": "10:25",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "exit",
+        "time": "11:05",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "student",
+        "time": "11:18",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "teacher",
+        "time": "11:20",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "exit",
+        "time": "12:00",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "student",
+        "time": "12:45",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "teacher",
+        "time": "12:50",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "exit",
+        "time": "13:30",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "student",
+        "time": "13:43",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "teacher",
+        "time": "13:45",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "exit",
+        "time": "14:25",
+        "enabled": true
+      },
+      {
+        "lesson": 7,
+        "type": "student",
+        "time": "14:38",
+        "enabled": true
+      },
+      {
+        "lesson": 7,
+        "type": "teacher",
+        "time": "14:40",
+        "enabled": true
+      },
+      {
+        "lesson": 7,
+        "type": "exit",
+        "time": "15:20",
+        "enabled": true
+      },
+      {
+        "lesson": 8,
+        "type": "student",
+        "time": "15:28",
+        "enabled": true
+      },
+      {
+        "lesson": 8,
+        "type": "teacher",
+        "time": "15:30",
+        "enabled": true
+      },
+      {
+        "lesson": 8,
+        "type": "exit",
+        "time": "16:10",
+        "enabled": true
+      },
+      {
+        "lesson": 9,
+        "type": "student",
+        "time": "16:18",
+        "enabled": true
+      },
+      {
+        "lesson": 9,
+        "type": "teacher",
+        "time": "16:20",
+        "enabled": true
+      },
+      {
+        "lesson": 9,
+        "type": "exit",
+        "time": "17:00",
+        "enabled": true
+      }
+    ],
+    "Wednesday": [
+      {
+        "lesson": 1,
+        "type": "student",
+        "time": "08:25",
+        "enabled": true
+      },
+      {
+        "lesson": 1,
+        "type": "teacher",
+        "time": "08:30",
+        "enabled": true
+      },
+      {
+        "lesson": 1,
+        "type": "exit",
+        "time": "09:10",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "student",
+        "time": "09:23",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "teacher",
+        "time": "09:25",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "exit",
+        "time": "10:05",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "student",
+        "time": "10:23",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "teacher",
+        "time": "10:25",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "exit",
+        "time": "11:05",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "student",
+        "time": "11:18",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "teacher",
+        "time": "11:20",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "exit",
+        "time": "12:00",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "student",
+        "time": "12:45",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "teacher",
+        "time": "12:50",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "exit",
+        "time": "13:30",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "student",
+        "time": "13:43",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "teacher",
+        "time": "13:45",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "exit",
+        "time": "14:25",
+        "enabled": true
+      },
+      {
+        "lesson": 7,
+        "type": "student",
+        "time": "14:38",
+        "enabled": true
+      },
+      {
+        "lesson": 7,
+        "type": "teacher",
+        "time": "14:40",
+        "enabled": true
+      },
+      {
+        "lesson": 7,
+        "type": "exit",
+        "time": "15:20",
+        "enabled": true
+      },
+      {
+        "lesson": 8,
+        "type": "student",
+        "time": "15:28",
+        "enabled": true
+      },
+      {
+        "lesson": 8,
+        "type": "teacher",
+        "time": "15:30",
+        "enabled": true
+      },
+      {
+        "lesson": 8,
+        "type": "exit",
+        "time": "16:10",
+        "enabled": true
+      },
+      {
+        "lesson": 9,
+        "type": "student",
+        "time": "16:18",
+        "enabled": true
+      },
+      {
+        "lesson": 9,
+        "type": "teacher",
+        "time": "16:20",
+        "enabled": true
+      },
+      {
+        "lesson": 9,
+        "type": "exit",
+        "time": "17:00",
+        "enabled": true
+      }
+    ],
+    "Thursday": [
+      {
+        "lesson": 1,
+        "type": "student",
+        "time": "08:25",
+        "enabled": true
+      },
+      {
+        "lesson": 1,
+        "type": "teacher",
+        "time": "08:30",
+        "enabled": true
+      },
+      {
+        "lesson": 1,
+        "type": "exit",
+        "time": "09:10",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "student",
+        "time": "09:23",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "teacher",
+        "time": "09:25",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "exit",
+        "time": "10:05",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "student",
+        "time": "10:23",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "teacher",
+        "time": "10:25",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "exit",
+        "time": "11:05",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "student",
+        "time": "11:18",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "teacher",
+        "time": "11:20",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "exit",
+        "time": "12:00",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "student",
+        "time": "12:45",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "teacher",
+        "time": "12:50",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "exit",
+        "time": "13:30",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "student",
+        "time": "13:43",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "teacher",
+        "time": "13:45",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "exit",
+        "time": "14:25",
+        "enabled": true
+      },
+      {
+        "lesson": 7,
+        "type": "student",
+        "time": "14:38",
+        "enabled": true
+      },
+      {
+        "lesson": 7,
+        "type": "teacher",
+        "time": "14:40",
+        "enabled": true
+      },
+      {
+        "lesson": 7,
+        "type": "exit",
+        "time": "15:20",
+        "enabled": true
+      }
+    ],
+    "Friday": [
+      {
+        "lesson": 1,
+        "type": "student",
+        "time": "08:25",
+        "enabled": true
+      },
+      {
+        "lesson": 1,
+        "type": "teacher",
+        "time": "08:30",
+        "enabled": true
+      },
+      {
+        "lesson": 1,
+        "type": "exit",
+        "time": "09:10",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "student",
+        "time": "09:23",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "teacher",
+        "time": "09:25",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "exit",
+        "time": "10:05",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "student",
+        "time": "10:23",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "teacher",
+        "time": "10:25",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "exit",
+        "time": "11:05",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "student",
+        "time": "11:18",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "teacher",
+        "time": "11:20",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "exit",
+        "time": "12:00",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "student",
+        "time": "12:45",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "teacher",
+        "time": "12:50",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "exit",
+        "time": "13:30",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "student",
+        "time": "13:43",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "teacher",
+        "time": "13:45",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "exit",
+        "time": "14:25",
+        "enabled": true
+      },
+      {
+        "lesson": 7,
+        "type": "student",
+        "time": "14:38",
+        "enabled": true
+      },
+      {
+        "lesson": 7,
+        "type": "teacher",
+        "time": "14:40",
+        "enabled": true
+      },
+      {
+        "lesson": 7,
+        "type": "exit",
+        "time": "15:20",
+        "enabled": true
+      }
+    ],
+    "Saturday": [
+      {
+        "lesson": 1,
+        "type": "student",
+        "time": "08:58",
+        "enabled": true
+      },
+      {
+        "lesson": 1,
+        "type": "teacher",
+        "time": "09:00",
+        "enabled": true
+      },
+      {
+        "lesson": 1,
+        "type": "exit",
+        "time": "09:40",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "student",
+        "time": "09:48",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "teacher",
+        "time": "09:50",
+        "enabled": true
+      },
+      {
+        "lesson": 2,
+        "type": "exit",
+        "time": "10:30",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "student",
+        "time": "10:38",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "teacher",
+        "time": "10:40",
+        "enabled": true
+      },
+      {
+        "lesson": 3,
+        "type": "exit",
+        "time": "11:20",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "student",
+        "time": "11:28",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "teacher",
+        "time": "11:30",
+        "enabled": true
+      },
+      {
+        "lesson": 4,
+        "type": "exit",
+        "time": "12:10",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "student",
+        "time": "12:38",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "teacher",
+        "time": "12:40",
+        "enabled": true
+      },
+      {
+        "lesson": 5,
+        "type": "exit",
+        "time": "13:20",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "student",
+        "time": "13:28",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "teacher",
+        "time": "13:30",
+        "enabled": true
+      },
+      {
+        "lesson": 6,
+        "type": "exit",
+        "time": "14:10",
+        "enabled": true
+      }
+    ],
+    "Sunday": []
+  },
+  "holidays": [
+    {
+      "date": "2026-10-28",
+      "name": "Cumhuriyet Bayramı Arifesi (yarım gün)",
+      "from_time": "13:00",
+      "end_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "Cumhuriyet Bayramı",
+      "end_date": "2026-10-29"
+    },
+    {
+      "date": "2026-11-16",
+      "name": "1. Dönem Ara Tatili",
+      "end_date": "2026-11-20"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "Yılbaşı",
+      "end_date": "2027-01-01"
+    },
+    {
+      "date": "2027-01-25",
+      "name": "Yarıyıl (Sömestr) Tatili",
+      "end_date": "2027-02-05"
+    },
+    {
+      "date": "2027-03-08",
+      "name": "2. Dönem Ara Tatili",
+      "end_date": "2027-03-12"
+    },
+    {
+      "date": "2027-03-09",
+      "name": "Ramazan Bayramı 1. Gün",
+      "end_date": "2027-03-09"
+    },
+    {
+      "date": "2027-03-10",
+      "name": "Ramazan Bayramı 2. Gün",
+      "end_date": "2027-03-10"
+    },
+    {
+      "date": "2027-03-11",
+      "name": "Ramazan Bayramı 3. Gün",
+      "end_date": "2027-03-11"
+    },
+    {
+      "date": "2027-04-23",
+      "name": "Ulusal Egemenlik ve Çocuk Bayramı",
+      "end_date": "2027-04-23"
+    },
+    {
+      "date": "2027-05-01",
+      "name": "Emek ve Dayanışma Günü",
+      "end_date": "2027-05-01"
+    },
+    {
+      "date": "2027-05-15",
+      "name": "Kurban Bayramı Arifesi (yarım gün)",
+      "from_time": "13:00",
+      "end_date": "2027-05-15"
+    },
+    {
+      "date": "2027-05-16",
+      "name": "Kurban Bayramı 1. Gün",
+      "end_date": "2027-05-16"
+    },
+    {
+      "date": "2027-05-17",
+      "name": "Kurban Bayramı 2. Gün",
+      "end_date": "2027-05-17"
+    },
+    {
+      "date": "2027-05-18",
+      "name": "Kurban Bayramı 3. Gün",
+      "end_date": "2027-05-18"
+    },
+    {
+      "date": "2027-05-19",
+      "name": "Kurban Bayramı 4. Gün / 19 Mayıs Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+      "end_date": "2027-05-19"
+    },
+    {
+      "date": "2027-06-26",
+      "name": "Yaz Tatili",
+      "end_date": "2027-08-31"
+    }
+  ],
+  "overrides": [],
+  "ceremonies": []
+}

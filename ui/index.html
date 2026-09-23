@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zil</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="wrap">
+  <div class="topbar">
+  <header>
+    <div class="brand">
+      <span class="bell-mark" aria-hidden="true"></span>
+      <div>
+        <h1 id="school-name">Zil</h1>
+        <div class="sub" data-i18n="subtitle">Okul Zil ve Tören Sistemi</div>
+      </div>
+    </div>
+    <div class="head-right">
+      <button class="lang" id="lang-toggle" type="button">TR / EN</button>
+      <div class="status" id="status-pill">…</div>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-tab="dashboard" data-i18n="tab_dashboard">Panel</button>
+    <button class="tab" data-tab="timetable"  data-i18n="tab_timetable">Ders Programı</button>
+    <button class="tab" data-tab="special"    data-i18n="tab_special">Özel Günler</button>
+    <button class="tab" data-tab="settings"   data-i18n="tab_settings">Ayarlar</button>
+    <button class="tab" data-tab="log"        data-i18n="tab_log">Kayıt</button>
+  </nav>
+  </div>
+
+  <!-- ---------------- dashboard ---------------- -->
+  <section id="dashboard" class="pane active">
+    <div class="clockbox">
+      <div class="date" id="date">—</div>
+      <div class="clock" id="clock">--:--:--</div>
+      <div class="next" id="next">—</div>
+      <div class="banner" id="holiday-banner" hidden></div>
+    </div>
+
+    <div class="engine-warn" id="engine-warn" hidden></div>
+
+    <h3 data-i18n="h_today">Bugünün Programı</h3>
+    <div class="timeline" id="timeline"></div>
+
+    <h3 data-i18n="h_manual">Manuel Zil</h3>
+    <div class="grid g3" id="grp-bells"></div>
+
+    <h3 data-i18n="h_ceremony">Törenler</h3>
+    <div class="grid g3" id="grp-ceremony"></div>
+
+    <h3 data-i18n="h_emergency">Sivil Savunma ve Acil Durumlar</h3>
+    <div class="grid g3" id="grp-emergency"></div>
+
+    <button class="stop" id="stop-btn" data-i18n="stop">TÜM SESLERİ DURDUR</button>
+  </section>
+
+  <!-- ---------------- timetable ---------------- -->
+  <section id="timetable" class="pane">
+    <div class="row-between">
+      <h2 data-i18n="h_timetable">Haftalık Ders Programı</h2>
+      <div class="actions">
+        <select id="day-select"></select>
+        <button class="btn" id="add-row" data-i18n="add_bell">+ Zil Ekle</button>
+      </div>
+    </div>
+    <p class="hint" data-i18n="hint_timetable">Değişiklikler kaydedilene kadar uygulanmaz.</p>
+    <table class="tbl" id="tt-table">
+      <thead><tr>
+        <th data-i18n="col_lesson">Ders</th>
+        <th data-i18n="col_type">Tür</th>
+        <th data-i18n="col_time">Saat</th>
+        <th data-i18n="col_active">Aktif</th>
+        <th></th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+    <div class="row-between mt">
+      <div class="copybox">
+        <span data-i18n="copy_to">Bu günü kopyala →</span>
+        <select id="copy-target" multiple size="4"></select>
+        <button class="btn" id="copy-btn" data-i18n="copy">Kopyala</button>
+      </div>
+      <button class="save" id="save-tt" data-i18n="save">KAYDET</button>
+    </div>
+  </section>
+
+  <!-- ---------------- special days ---------------- -->
+  <section id="special" class="pane">
+    <h2 data-i18n="h_holidays">Tatiller (zil çalmaz)</h2>
+    <p class="hint" data-i18n="hint_holidays">Bitiş boş = tek gün. Yarım gün saati girilirse o saate kadar ziller çalar.</p>
+    <table class="tbl" id="hol-table">
+      <thead><tr><th data-i18n="col_date">Tarih</th><th data-i18n="col_enddate">Bitiş</th><th data-i18n="col_fromtime">Yarım gün</th><th data-i18n="col_name">Açıklama</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="btn" id="add-hol" data-i18n="add">+ Ekle</button>
+
+    <h2 class="mt" data-i18n="h_overrides">Gün Değişimi</h2>
+    <p class="hint" data-i18n="hint_override">Belirli bir tarihte başka bir günün programını uygula.</p>
+    <table class="tbl" id="ovr-table">
+      <thead><tr><th data-i18n="col_date">Tarih</th><th data-i18n="col_useday">Uygulanacak Gün</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="btn" id="add-ovr" data-i18n="add">+ Ekle</button>
+
+    <h2 class="mt" data-i18n="h_ceremonies">Planlı Törenler</h2>
+    <p class="hint" data-i18n="hint_ceremony">Tatil günlerinde de çalar.</p>
+    <table class="tbl" id="cer-table">
+      <thead><tr>
+        <th data-i18n="col_date">Tarih</th><th data-i18n="col_time">Saat</th>
+        <th data-i18n="col_sound">Ses</th><th data-i18n="col_name">Açıklama</th><th></th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="btn" id="add-cer" data-i18n="add">+ Ekle</button>
+
+    <div class="row-end mt"><button class="save" id="save-special" data-i18n="save">KAYDET</button></div>
+  </section>
+
+  <!-- ---------------- settings ---------------- -->
+  <section id="settings" class="pane">
+    <h2 data-i18n="h_settings">Ayarlar</h2>
+    <div class="cols">
+      <div>
+        <div class="group">
+          <h3 data-i18n="h_general">Genel</h3>
+          <label data-i18n="f_school">Okul / Kurum Adı</label>
+          <input type="text" id="s-school">
+          <label data-i18n="f_catchup">Gecikme toleransı (saniye)</label>
+          <input type="number" id="s-catchup" min="0" max="3600">
+          <p class="hint" data-i18n="hint_catchup">Kaçırılan bir zil bu süre içinde hâlâ çalar.</p>
+          <label class="chk"><input type="checkbox" id="s-enabled"> <span data-i18n="f_enabled">Zil sistemi aktif</span></label>
+        </div>
+        <div class="group">
+          <h3 data-i18n="h_volume">Ses Seviyesi</h3>
+          <div id="vol-rows"></div>
+          <p class="hint" data-i18n="hint_volume">%0 gerçekten sessizdir.</p>
+        </div>
+      </div>
+      <div>
+        <div class="group">
+          <h3 data-i18n="h_sounds">Ses Dosyaları</h3>
+          <div id="melody-rows"></div>
+        </div>
+      </div>
+    </div>
+    <button class="save" id="save-settings" data-i18n="save">KAYDET</button>
+  </section>
+
+  <!-- ---------------- log ---------------- -->
+  <section id="log" class="pane">
+    <div class="row-between">
+      <h2 data-i18n="h_log">Çalma Kaydı</h2>
+      <button class="btn" id="refresh-log" data-i18n="refresh">Yenile</button>
+    </div>
+    <table class="tbl" id="log-table">
+      <thead><tr>
+        <th data-i18n="col_when">Zaman</th><th data-i18n="col_event">Olay</th>
+        <th data-i18n="col_sound">Ses</th><th data-i18n="col_detail">Ayrıntı</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+  </section>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+
+<script>window.ZIL_TOKEN = "__ZIL_TOKEN__"; window.ZIL_IN_APP = __ZIL_IN_APP__;</script>
+<script src="i18n.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
